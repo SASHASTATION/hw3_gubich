@@ -1,0 +1,12 @@
+{
+  "candidate": {
+    "average_precision": 0.2559076507854807,
+    "f1": 0.2998102466793169
+  },
+  "incumbent": {
+    "average_precision": 0.2516872047510351,
+    "f1": 0.3029126213592233
+  },
+  "approved": true,
+  "promotion_metric": "average_precision"
+}

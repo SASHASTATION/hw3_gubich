@@ -1,0 +1,19 @@
+<!doctype html><html lang='ru'><head><meta charset='utf-8'>
+<title>Fraud dataset quality</title>
+<style>body{font:16px sans-serif;max-width:980px;margin:30px auto;padding:0 15px}
+table{width:100%;border-collapse:collapse}td,th{padding:12px;border-bottom:1px solid #ddd;text-align:left}
+.ok{color:#157b36;font-weight:bold}.bad{color:#b72b2b;font-weight:bold}</style></head>
+<body><h1>Fraud labeled showcase: Data Quality</h1>
+<p>Run: check_data_quality/scheduled__2026-10-24T12:20:00+00:00</p><p>Created: 2026-10-24 12:30:00 UTC</p>
+<p>Months: 2026-08-01 — 2028-03-01; total rows: 23000</p>
+<h2>Passed: 9/9</h2>
+<table><thead><tr><th>Rule</th><th>Status</th><th>Details</th></tr></thead>
+<tbody><tr><td>DQ01: витрина не пустая</td><td class='ok'>PASS</td><td>rows=23000</td></tr>
+<tr><td>DQ02: fraud label ∈ {0, 1}</td><td class='ok'>PASS</td><td>violations=0</td></tr>
+<tr><td>DQ03: transaction_time не NULL</td><td class='ok'>PASS</td><td>violations=0</td></tr>
+<tr><td>DQ04: payload присутствует</td><td class='ok'>PASS</td><td>violations=0</td></tr>
+<tr><td>DQ05: обязательные признаки amt/city_pop</td><td class='ok'>PASS</td><td>violations=0</td></tr>
+<tr><td>DQ06: сумма транзакции валидна</td><td class='ok'>PASS</td><td>violations=0</td></tr>
+<tr><td>DQ07: (sample_key, batch_month) уникален</td><td class='ok'>PASS</td><td>violations=0</td></tr>
+<tr><td>DQ08: transaction_time в указанном месяце</td><td class='ok'>PASS</td><td>violations=0</td></tr>
+<tr><td>DQ09: координаты присутствуют</td><td class='ok'>PASS</td><td>violations=0</td></tr></tbody></table></body></html>
